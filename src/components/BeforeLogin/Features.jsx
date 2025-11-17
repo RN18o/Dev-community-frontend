@@ -4,7 +4,7 @@ function Features() {
   return (
     <section className="px-6 md:px-20 py-16">
       <h2 className="text-3xl font-semibold mb-8 text-center">
-        Features of DevTinder
+        Features of Dev-Community
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-xl transition flex flex-col items-center text-center">
