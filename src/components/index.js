@@ -17,25 +17,27 @@ import TermsOfService from "./policy/TermsOfService";
 import CancellationAndRefund from "./policy/CancellationAndRefund";
 import ShippingAndDelivery from "./policy/ShippingAndDelivery";
 import Premium from "./Premium";
+import Chat from "./Chat";
 
 export {
-    NavBar,
-    Footer,
-    Feed,
-    Login,
-    Profile,
-    Body,
-    Connections,
-    Requests,
-    HomePage,
-    SignUp,
-    ChangePassword,
-    ForgotPassword,
-    ResetPassword,
-    ContactUs,
-    PrivacyPolicy,
-    TermsOfService,
-    CancellationAndRefund,
-    ShippingAndDelivery,
-    Premium
+  NavBar,
+  Footer,
+  Feed,
+  Login,
+  Profile,
+  Body,
+  Connections,
+  Requests,
+  HomePage,
+  SignUp,
+  ChangePassword,
+  ForgotPassword,
+  ResetPassword,
+  ContactUs,
+  PrivacyPolicy,
+  TermsOfService,
+  CancellationAndRefund,
+  ShippingAndDelivery,
+  Premium,
+  Chat,
 };

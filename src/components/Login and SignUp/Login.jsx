@@ -111,9 +111,7 @@ function Login() {
               </span>
             </div>
           </label>
-          <p className="text-red-500 text-sm text-center">
-            {error}
-          </p>
+          <p className="text-red-500 text-sm text-center">{error}</p>
           <div className="card-actions justify-center">
             <button className="btn btn-primary" onClick={handleLogin}>
               Log-in

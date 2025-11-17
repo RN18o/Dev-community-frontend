@@ -15,7 +15,8 @@ import {
   PrivacyPolicy,
   CancellationAndRefund,
   ShippingAndDelivery,
-  Premium
+  Premium,
+  Chat,
 } from "./components";
 import { useSelector } from "react-redux";
 
@@ -42,12 +43,19 @@ function App() {
             <Route path="terms-of-service" element={<TermsOfService />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="contact-us" element={<ContactUs />} />
-            <Route path="cancellation-and-refund" element={<CancellationAndRefund />} />
-            <Route path="shipping-And-delivery" element={<ShippingAndDelivery />} />
+            <Route
+              path="cancellation-and-refund"
+              element={<CancellationAndRefund />}
+            />
+            <Route
+              path="shipping-And-delivery"
+              element={<ShippingAndDelivery />}
+            />
             <Route path="profile" element={<Profile />} />
             <Route path="connections" element={<Connections />} />
             <Route path="requests" element={<Requests />} />
-            <Route path="premuim" element={<Premium/>} />
+            <Route path="premuim" element={<Premium />} />
+            <Route path="chat/:targetUserId" element={<Chat />} />
             <Route path="*" element={user ? <Feed /> : <HomePage />} />
           </Route>
           <Route path="/reset-password/:token" element={<ResetPassword />} />
