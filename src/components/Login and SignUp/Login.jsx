@@ -7,8 +7,8 @@ import { useNavigate } from "react-router-dom";
 import api from "../../utils/apiAxios";
 
 function Login() {
-  const [emailId, setEmailId] = useState("virat@gmail.com");//delete this
-  const [password, setPassword] = useState("viratPassword@1");//delete this
+  const [emailId, setEmailId] = useState("aryan@gmail.com");
+  const [password, setPassword] = useState("Aryan@123");
   const [error, setError] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const dispatch = useDispatch();

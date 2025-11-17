@@ -16,7 +16,6 @@ import PrivacyPolicy from "./policy/PrivacyPolicy";
 import TermsOfService from "./policy/TermsOfService";
 import CancellationAndRefund from "./policy/CancellationAndRefund";
 import ShippingAndDelivery from "./policy/ShippingAndDelivery";
-import Chat from "./Chat"
 import Premium from "./Premium";
 
 export {
@@ -38,6 +37,5 @@ export {
     TermsOfService,
     CancellationAndRefund,
     ShippingAndDelivery,
-    Chat,
-    Premium,
+    Premium
 };
