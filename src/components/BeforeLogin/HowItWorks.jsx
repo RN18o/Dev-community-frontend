@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 const testimonials = [
   {
     id: "slide1",
-    quote: "DevTinder helped me find a co-founder for my startup!",
+    quote: "Dev-Community helped me find a co-founder for my startup!",
     name: "Jane",
     role: "Full Stack Developer",
     avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
@@ -25,7 +25,7 @@ const testimonials = [
   },
   {
     id: "slide4",
-    quote: "I found my dream team for a hackathon through DevTinder!",
+    quote: "I found my dream team for a hackathon through Dev-Community!",
     name: "Johnson",
     role: "UI/UX Designer",
     avatar:
